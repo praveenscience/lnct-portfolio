@@ -1,12 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Shruti Shete</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shruti Shete's Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
   </head>
   <body>
-    <h1>Shruti Shete</h1>
-    <p>My wife TechVilla & my girlfriend is Mentorle</p>
+    <header class="bg-dark text-white text-center py-3">
+      <h1 class="mb-0">Shruti Shete</h1>
+      <nav class="d-flex justify-content-center">
+        <a class="text-white mx-2" href="#home">Home</a>
+        <a class="text-white mx-2" href="#projects">Projects</a>
+        <a class="text-white mx-2" href="#about">About</a>
+        <a class="text-white mx-2" href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section id="home" class="bg-light py-5">
+      <div class="container text-center">
+        <h2 class="mb-4">Web Developer</h2>
+        <p>Welcome to my portfolio. I am a student at LNCT and an enthusiastic web developer with internship experience at Mentorle and TechVilla.</p>
+      </div>
+    </section>
+
+    <section id="projects" class="py-5">
+      <div class="container">
+        <h2 class="mb-4">Portfolio Highlights</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Responsive HTML Layout</h5>
+                <p class="card-text">A fully responsive HTML layout using Bootstrap and CSS.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">E-commerce Storefront</h5>
+                <p class="card-text">A modern e-commerce storefront with user authentication and payment gateway integration.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Interactive Form Design</h5>
+                <p class="card-text">An interactive form with real-time validation and user feedback.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="bg-light py-5">
+      <div class="container">
+        <h2 class="mb-4">About Me</h2>
+        <p>I am a student at LNCT, pursuing a degree in Computer Science. I have a passion for web development and have gained valuable experience through internships at Mentorle and TechVilla. I am skilled in HTML, CSS, JavaScript, and Bootstrap, and I am always eager to learn new technologies and take on new challenges.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h2 class="mb-4">Contact Me</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Your Name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Your Email">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Your Message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+      <p>&copy; 2023 Shruti Shete. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>
